@@ -62,5 +62,4 @@
 //#define CONTROL_SAFETY_DOOR_PIN GPIO_NUM_35  // labeled Door,  needs external pullup
 #define CONTROL_RESET_PIN       GPIO_NUM_2   // labeled Reset, needs external pullup, A0
 #define CONTROL_FEED_HOLD_PIN   GPIO_NUM_4   // labeled Hold,  needs external pullup, A1
-#define CONTROL_CYCLE_START_PIN GPIO_NUM_36  // labeled Start, needs external pullup, A2orA4
-
+#define CONTROL_CYCLE_START_PIN GPIO_NUM_35  // labeled Start, needs external pullup, A2
