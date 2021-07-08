@@ -33,6 +33,11 @@
 
 #define MACHINE_NAME            "ESP32_V4"
 
+#ifdef N_AXIS
+        #undef N_AXIS
+#endif
+#define N_AXIS 4
+
 #define X_STEP_PIN              GPIO_NUM_26  //  D2 of the CNC Shield
 #define X_DIRECTION_PIN         GPIO_NUM_16  //  D5 of the CNC Shield
 #define Y_STEP_PIN              GPIO_NUM_25  //  D3 of the CNC Shield
